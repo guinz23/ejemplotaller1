@@ -1,0 +1,11 @@
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\bin\Debug\taller1.exe.config
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\bin\Debug\taller1.exe
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\bin\Debug\taller1.pdb
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\bin\Debug\Mono.Security.dll
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\bin\Debug\Npgsql.dll
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\obj\Debug\taller1.csprojResolveAssemblyReference.cache
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\obj\Debug\taller1.Form1.resources
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\obj\Debug\taller1.Properties.Resources.resources
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\obj\Debug\taller1.csproj.GenerateResource.Cache
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\obj\Debug\taller1.exe
+c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\obj\Debug\taller1.pdb

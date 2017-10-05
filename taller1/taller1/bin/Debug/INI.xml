@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Parametros>
+    <Conexion>
+        <Usuario>postgres</Usuario>
+        <Password>123456</Password>
+        <Server>localhost</Server>
+        <DataBase>registro</DataBase>
+        <Schema>public.</Schema>
+        <Port>5432</Port>
+    </Conexion>
+</Parametros>
