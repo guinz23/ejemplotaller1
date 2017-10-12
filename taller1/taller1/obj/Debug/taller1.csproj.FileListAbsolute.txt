@@ -9,3 +9,12 @@ c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\obj\Debug\ta
 c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\obj\Debug\taller1.csproj.GenerateResource.Cache
 c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\obj\Debug\taller1.exe
 c:\Users\juan\documents\visual studio 2017\Projects\taller1\taller1\obj\Debug\taller1.pdb
+C:\Users\juan\Documents\Visual Studio 2017\Projects\ejemplotaller1\taller1\taller1\bin\Debug\taller1.exe.config
+C:\Users\juan\Documents\Visual Studio 2017\Projects\ejemplotaller1\taller1\taller1\bin\Debug\taller1.exe
+C:\Users\juan\Documents\Visual Studio 2017\Projects\ejemplotaller1\taller1\taller1\bin\Debug\taller1.pdb
+C:\Users\juan\Documents\Visual Studio 2017\Projects\ejemplotaller1\taller1\taller1\obj\Debug\taller1.Form1.resources
+C:\Users\juan\Documents\Visual Studio 2017\Projects\ejemplotaller1\taller1\taller1\obj\Debug\taller1.Properties.Resources.resources
+C:\Users\juan\Documents\Visual Studio 2017\Projects\ejemplotaller1\taller1\taller1\obj\Debug\taller1.csproj.GenerateResource.Cache
+C:\Users\juan\Documents\Visual Studio 2017\Projects\ejemplotaller1\taller1\taller1\obj\Debug\taller1.exe
+C:\Users\juan\Documents\Visual Studio 2017\Projects\ejemplotaller1\taller1\taller1\obj\Debug\taller1.pdb
+C:\Users\juan\Documents\Visual Studio 2017\Projects\ejemplotaller1\taller1\taller1\obj\Debug\taller1.csprojResolveAssemblyReference.cache

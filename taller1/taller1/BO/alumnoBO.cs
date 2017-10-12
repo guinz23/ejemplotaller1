@@ -10,9 +10,9 @@ namespace BO
 {
     public class alumnoBO
 
-    { 
+    {
         private alumnoDAO AlumnoDAO;
-       public bool validacion;
+        public bool validacion;
         public alumnoBO()
         {
             validacion = false;
@@ -52,16 +52,17 @@ namespace BO
                 {
 
                     char a = validar[i];
-                    if (a ==  '@')
+                    if (a == '@')
                     {
-                        
-                       
+
+
                         validacion = true;
 
                     }
-                    
+
                 }
-                if (validacion == false) {
+                if (validacion == false)
+                {
 
                     throw new Exception("El correo necesita @");
                 }
@@ -71,6 +72,24 @@ namespace BO
             {
 
                 throw exception;
+            }
+
+        }
+
+        public List<alumno> CargarAlumnos()
+        {
+            try
+            {
+                if (AlumnoDAO.Alumnos1.Equals(""))
+                {
+                    throw new Exception("no hay datos que cargar");
+                }
+                return AlumnoDAO.obtnerAlumnos();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
             }
 
         }

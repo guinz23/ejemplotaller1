@@ -21,22 +21,25 @@ namespace taller1
             InitializeComponent();
             Alumno = new alumno();
             AlumnoBO = new alumnoBO();
+        
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             try
             {
+                if (AlumnoBO.validacion.Equals(true))
+                {
+                    lblmesajecorreo.Text = "correo con formato correcto";
+                }
                 Alumno.Nombre = txtnombre.Text;
                 Alumno.Apellido = txtApellido.Text;
                 Alumno.Direccion = txtDireccion.Text;
                 Alumno.Correo = txtCorreo.Text;
-                if (AlumnoBO.validacion.Equals(true))
-                {
-                  lblmesajecorreo.Text="correo con formato correcto";
-                }
                 Alumno.Telefono = Int32.Parse(txtTelefono.Text);
                 AlumnoBO.verificarAlumno(Alumno);
+                MessageBox.Show("Usuario agregado correctamente");
+
             }
             catch (Exception exception)
             {
@@ -46,5 +49,25 @@ namespace taller1
            
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            cargar();
+        }
+        public void cargar(){
+            try
+            {
+              
+                List<alumno> Alumnos = AlumnoBO.CargarAlumnos();
+                this.dataAlumnos.DataSource = Alumno.ToString();
+              }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+
+      }
+      
     }
 }
